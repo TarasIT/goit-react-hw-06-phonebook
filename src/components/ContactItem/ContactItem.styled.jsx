@@ -19,6 +19,7 @@ export const ContactsDeleteBtn = styled.button`
   min-width: 120px;
   height: 30px;
   border-radius: 5px;
+  border: 1px solid black;
   font-size: 18px;
   background-color: #d1d1d1b8;
 

@@ -17,6 +17,7 @@ export const FilterInput = styled.input`
   min-width: 300px;
   height: 30px;
   border-radius: 5px;
+  border: 1px solid black;
   margin-left: 20px;
   font-size: 18px;
 `;

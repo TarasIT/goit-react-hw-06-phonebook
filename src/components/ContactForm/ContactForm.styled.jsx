@@ -17,6 +17,7 @@ export const FormInput = styled.input`
   min-width: 200px;
   height: 30px;
   border-radius: 5px;
+  border: 1px solid black;
   margin-left: 10px;
   font-size: 18px;
 `;
@@ -25,6 +26,7 @@ export const SubmitBtn = styled.button`
   min-width: 150px;
   height: 40px;
   border-radius: 5px;
+  border: 1px solid black;
   font-size: 18px;
   background-color: #e2e2e2;
 
