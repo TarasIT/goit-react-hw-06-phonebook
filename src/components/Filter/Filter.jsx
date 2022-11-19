@@ -15,7 +15,7 @@ export const Filter = () => {
           type="text"
           name="filter"
           value={inputValue}
-          onChange={e => dispatch(filterContacts(e.target.value))}
+          onChange={e => dispatch(filterContacts(e.target.value.trim()))}
           required
         />
       </FilterLabel>

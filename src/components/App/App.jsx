@@ -10,7 +10,7 @@ export const App = () => {
   const contactsFilter = useSelector(getContactsFilter);
 
   const filteredContacts = contacts.filter(({ name }) =>
-    name.toLowerCase().includes(contactsFilter)
+    name.toLowerCase().includes(contactsFilter.toLowerCase())
   );
 
   return (
